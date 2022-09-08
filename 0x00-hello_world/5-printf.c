@@ -1,11 +1,14 @@
 #include <stdio.h>
 
 /**
- * main - print the string in the printf function
- *
- *return: 0
- *
- */
+* 
+* main - print the string in the printf function
+*
+* Description - using the main function
+*
+* return: 0
+*
+*/
 
 int main(void)
 
