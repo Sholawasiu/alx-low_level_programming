@@ -3,9 +3,7 @@
 
 /**
 * main - print the string in the printf function
-*
 * Description: the programme print with proper grammar, but the outcome
-*
 * return: 0 at the end of execution, otherwise return non zero
 */
 
