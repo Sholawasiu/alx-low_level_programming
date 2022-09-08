@@ -2,7 +2,7 @@
 
 /**
 * main - print the string in the printf function
-* Description: the programme print main function
+*
 */
 
 int main(void)
