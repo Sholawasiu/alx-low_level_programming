@@ -3,8 +3,7 @@
 
 /**
 * main - print the string in the printf function
-* Description: the programme print with proper grammar, but the outcome is a piece of art,
-*
+* Description: the programme print main function
 */
 
 int main(void)
