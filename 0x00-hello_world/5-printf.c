@@ -4,6 +4,7 @@
 /**
 * main - print the string in the printf function
 * Description: the programme print with proper grammar, but the outcome.
+*
 */
 
 int main(void)
