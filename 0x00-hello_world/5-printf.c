@@ -5,7 +5,7 @@
 *
 * Description: using the main function
 *
-* return: 0
+* return: return 0 , otherwise non zero
 *
 */
 
