@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
-/*
-* main: assign a random number the variable n
+/**
+* main - Entry point
 *
-* description: print the last digit stored in the variable
+* Description: print the last digit stored in the variable
 *
-* return: 0
+* Return: 0
 *
 */
 
