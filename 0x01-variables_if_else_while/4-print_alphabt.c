@@ -3,8 +3,9 @@
 
 /**
 *main - Entry point
-*description: assign a random number to variable n each time it is executed
+*Description: assign a random number to variable n each time it is executed
 *print the last digit of the number stored in the variable n
+*Return: Always (0) success
 *
 */
 
