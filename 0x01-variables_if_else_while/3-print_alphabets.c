@@ -1,6 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/**
+*main - Entry point
+*Description: print alphabet in lowercase and then in upper case
+*Return: Always (0) success
+*
+*/
 
 int main(void)
 
