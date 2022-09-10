@@ -11,9 +11,9 @@ int main(void)
 
 {
 int m, n, o;
-for (m = 48; m < 58; m++)
-for  (n = 49; n < 58; n++)
-for (o = 50; o < 58; o++)
+for (m = 18; m < 28; m++)
+for  (n = 19; n < 28; n++)
+for (o = 20; o < 28; o++)
 
 if (o > n && n > o)
 
@@ -21,7 +21,7 @@ putchar(m);
 putchar(n);
 putchar(o);
 
-if (m != 55 || n != 56)
+if (m != 25 || n != 26)
 
 putchar(',');
 putchar(' ');
