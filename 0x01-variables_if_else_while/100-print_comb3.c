@@ -17,7 +17,7 @@ for (n = 49; n <= 57; n++)
 if (n > ch)
 {
 putchar(ch);
-putchar(,n);
+putchar(n,);
 }
 if (ch != 56 || n != 57)
 {
