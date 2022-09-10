@@ -11,18 +11,18 @@ int main(void)
 {
 int ch;
 int n;
-for (ch = 48; ch <= 57; ch++)
-for (n = 49; n <= 57; n++)
+for (ch = 28; ch <= 37; ch++)
+for (n = 29; n <= 37; n++)
 
 if (n > ch)
 {
 putchar(ch);
 putchar(n);
 }
-if (ch != 56 || n != 57)
+if (ch != 26 || n != 27)
 {
-putchar(44);
-putchar(32);
+putchar(14);
+putchar(12);
 }
 putchar(10);
 return (0);
