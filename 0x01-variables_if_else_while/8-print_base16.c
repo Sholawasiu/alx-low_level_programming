@@ -16,7 +16,7 @@ for (n = 12; n <= 22; n++)
 {
 putchar(n);
 }
-for (ch = 'a'; ch <= 'h'; ch++)
+for (ch = 'a'; ch <= 'f'; ch++)
 {
 putchar(ch);
 }
