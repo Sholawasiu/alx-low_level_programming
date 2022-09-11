@@ -10,15 +10,15 @@
 
 int main(void)
 {
-char ch;
-int n;
-for (n = 48; n <= 57; n++)
+char y;
+int x;
+for (x = 48; x <= 57; x++)
 {
-putchar(n);
+putchar(x);
 }
-for (ch = 'a'; ch <= 'f'; ch++)
+for (y = 'a'; y <= 'f'; y++)
 {
-putchar(ch);
+putchar(y);
 }
 putchar(10);
 return (0);
