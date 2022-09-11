@@ -9,21 +9,18 @@
 */
 int main(void)
 {
-int ch;
-int n;
-for (ch = 28; ch <= 37; ch++)
-for (n = 29; n <= 37; n++)
-
-if (n > ch)
+int c = 0;
+while (c <= 99)
 {
-putchar(ch);
-putchar(n);
-}
-if (ch != 26 || n != 27)
+putchar(c / 10 + '0');
+putchar(c % 10 + '0');
+if (c != 99)
 {
-putchar(14);
-putchar(12);
+putchar(',');
+putchar(' ');
 }
-putchar(10);
+c++;
+}
+putchar('\n');
 return (0);
 }
