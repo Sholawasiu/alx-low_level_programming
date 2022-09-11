@@ -10,16 +10,15 @@
 
 int main(void)
 {
-int ch;
-for (ch = 32; ch <= 46; ch++)
+int n;
+for(n = 48; n <=57; n++)
 {
-putchar(ch);
+putchar(n);
+if (n != 57)
+putchar(',');
+putchar(' ');
 }
-if (ch != 46)
-{
-putchar(34);
-putchar(24);
-}
-putchar(10);
+putchar('\n');
+
 return (0);
 }
