@@ -10,10 +10,10 @@
 int main(void)
 {
 int c = 1;
-while (c <= 89)
+while (c <= 79)
 {
-putchar(c / 10 + '1');
-putchar(c % 10 + '1');
+putchar(c / 10 + '0');
+putchar(c % 10 + '0');
 if (c != 99)
 {
 putchar(',');
