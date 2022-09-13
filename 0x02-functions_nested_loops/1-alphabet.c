@@ -1,9 +1,10 @@
 #include "main.h"
+#include "unistd.h"
 void print_alphabet(void)
 {
-char n;
+int n;
 
-for(n = 'a' ; n <= 'z' ; n++);
+for (n = 'a' ; n <= 'z' ; n++);
 {
 _putchar(n);
 }
