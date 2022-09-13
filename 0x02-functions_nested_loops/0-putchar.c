@@ -10,7 +10,8 @@ int main(void)
 {
 char n[]="_putchar";
 {
-printf("%s\n",n);
+putchar(n);
 }
+putchar('\n')
 return (0);
 }
