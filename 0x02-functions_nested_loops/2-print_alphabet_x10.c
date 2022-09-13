@@ -1,11 +1,15 @@
 #include "main.h"
 void print_alphabet_x10(void);
 {
-char n;
-for(n = 'a' ; n <= n; n++)
-{
-int m = 10;
+int n;
+int m;
 for(m = 0; m <= 10; m++)
-return (0);
+{
+
+for(n = 'a'; n <= 'z'; n++)
+{
+putchar(n);
+}
+putchar('\n');
 }
 }
