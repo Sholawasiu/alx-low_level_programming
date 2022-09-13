@@ -1,11 +1,11 @@
 #include "main.h"
 void print_alphabet(void)
 {
-char n;
+int n;
 
 for (n ='a', n <= 'z'; n++);
 {
-putchar('n');
-putchar('\n');
+_putchar(n);
+_putchar('\n');
 }
 }
