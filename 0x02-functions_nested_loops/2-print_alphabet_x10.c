@@ -1,14 +1,21 @@
 #include "main.h"
+
+/**
+*main - Entry point
+*Description: print alphabet x10 lowercase
+*Return: Always (0)
+*
+*/
+
 void print_alphabet_x10(void)
 {
-int n;
-int m;
-for(m = 0; m <= 10; m++)
+int j;
+int x;
+for (x = 0; x < 10; x++)
 {
-for(n = 'a'; n <= 'z'; n++)
+for (j = 'a'; j <= 'z'; j++)
 {
-putchar(n);
+_putchar(j);
 }
-putchar('\n');
-}
+_putchar('\n');
 }

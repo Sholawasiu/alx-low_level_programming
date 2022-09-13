@@ -1,5 +1,10 @@
 #include "main.h"
-void print_alphabet(void)
+/**
+*main - Entry point
+*Description: print alphabet
+*
+*/
+void print_alphabet(void);
 char n;
 for (n = 'a' ; n <= 'z' ; n++);
 {
