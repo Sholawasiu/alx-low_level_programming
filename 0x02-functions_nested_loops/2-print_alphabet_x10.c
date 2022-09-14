@@ -3,6 +3,7 @@
 /**
 *maim - Entry point
 *Description: print_alphabet_x10 lowercase
+*Return: Always (0)
 *
 */
 void print_alphabet_x10(void)
