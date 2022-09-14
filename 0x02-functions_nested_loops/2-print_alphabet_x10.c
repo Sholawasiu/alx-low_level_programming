@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
-*maim - Entry point
-*Description: print_alphabet_x10 -> lowercase
-*Return: Always (0)
+*print_alphabet - print_alphabet_x10
+*it prints in lower case
+*Return: no return
 */
 void print_alphabet_x10(void)
 {
