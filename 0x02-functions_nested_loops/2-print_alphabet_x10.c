@@ -2,7 +2,7 @@
 
 /**
 *main - Entry point
-*Description: print alphabet x10 lowercase
+*Description: print_alphabet_x10 lowercase
 *Return: Always (0)
 *
 */
