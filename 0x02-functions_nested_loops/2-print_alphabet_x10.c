@@ -1,6 +1,7 @@
 #include "main.h"
 
 /**
+*maim - Entry point
 *Description: print_alphabet_x10 lowercase
 *
 */
