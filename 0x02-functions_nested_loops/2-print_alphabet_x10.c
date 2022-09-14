@@ -2,7 +2,7 @@
 
 /**
 *maim - Entry point
-*Description: print_alphabet_x10 lowercase
+*Description: print_alphabet_x10 -> lowercase
 *Return: Always (0)
 *
 */
@@ -14,6 +14,6 @@ for (x = 0; x <= 9; x++)
 {
 for (j = 'a'; j <= 'z'; j++)
 _putchar(j);
-_putchar('\n');
 }
+_putchar('\n');
 }
