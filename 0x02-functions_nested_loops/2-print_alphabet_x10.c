@@ -2,9 +2,10 @@
 
 /**
 *print_alphabet - function that print_alphabet_x10
-*it prints in lower case
-*Return: no return
+*Description: it prints in lower case
+*Return: (0)
 */
+
 void print_alphabet_x10(void)
 {
 int j;
