@@ -2,8 +2,8 @@
 
 /**
 * add -> adds two number
-* @x : param1
-* @y : param2
+* @m : param1
+* @n : param2
 * Return: m + n
 */
 
