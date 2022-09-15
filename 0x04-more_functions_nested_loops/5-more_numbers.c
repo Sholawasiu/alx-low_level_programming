@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* print numbers of 0 to 14 10x
+* printing more numbers of 0 to 14 10x
 */
 
 void more_numbers(void);
