@@ -1,27 +1,21 @@
-#include <stdlib.h>
+#ifndef MAIN_H
 
-#include <time.h>
-
-/* more headers goes there */
+#define MAIN_H
 
 
 
-/* betty style doc for function main goes there */
+#include <stdio.h>
 
-int main(void)
-  
-{
-  
-  int n;
-  
 
-  
-  srand(time(0));
-  
-  n = rand() - RAND_MAX / 2;
-  
-  /* your code goes there */
-  
-  return (0);
-  
-}
+
+void positive_or_negative(int i);
+
+int largest_number(int, int, int);
+
+void print_remaining_days(int, int, int);
+
+int convert_day(int month, int day);
+
+
+
+#endif /* MAIN_H */
