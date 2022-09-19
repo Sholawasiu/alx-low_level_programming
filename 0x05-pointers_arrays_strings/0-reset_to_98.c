@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-*Description: a function that assign a pointer to an int with a value of 98
+*reset_to_98 - a function that assign a pointer to an int with a value of 98
 *@n: to update pointer of n
 *Return: Always (0)
 */
