@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-*strlen - function to return th lenght of string
+*_strlen - function to return th lenght of string
 *Return: lenght
 */
 
