@@ -2,6 +2,7 @@
 
 /**
 *_strlen - function to return th lenght of string
+*@s: return string lenght
 *Return: lenght
 */
 
