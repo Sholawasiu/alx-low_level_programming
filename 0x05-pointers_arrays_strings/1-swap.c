@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-*A function that swap the values of 2 integers a and b
+*swap_int - A function that swap the values of 2 integers a and b
 *@a: parameter one
 *@b: parameter two
 */
