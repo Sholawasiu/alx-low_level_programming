@@ -1,9 +1,9 @@
 #include "main.h"
 #include <string.h>
-
+#include <stdio.h>
 
 /**
-* puts2 -> puts2 function
+* puts2 - puts2 function
 * @str: str parameter
 */
 
