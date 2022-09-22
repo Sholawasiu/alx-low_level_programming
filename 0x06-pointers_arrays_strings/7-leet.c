@@ -2,8 +2,8 @@
 
 
 /**
-* leet -> a leet function
-* @x: param x
+* leet - a leet function
+* @x: parameter x
 * Return: a string
 */
 
