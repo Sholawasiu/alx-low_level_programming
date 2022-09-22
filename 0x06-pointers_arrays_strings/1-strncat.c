@@ -1,11 +1,10 @@
 #include "main.h"
-
 #include <string.h>
 
 
 
 /**
-* _strncat - function to append some char
+* -strncat - function to append some char
 * @dest: first parameter
 * @src: second  parameterr 
 * @n: 3rd parameter
