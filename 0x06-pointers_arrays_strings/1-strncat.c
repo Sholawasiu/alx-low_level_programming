@@ -5,14 +5,14 @@
 
 /**
 * -strncat - function to append some char
-* @dest: first parameter
-* @src: second  parameterr 
-* @n: 3rd parameter
+* @dest: first parameter1
+* @src: second  parameter2
+* @n: 3rd parameter3
 * Return: string
 */
 
-char *_strncat(chare *dest, char *src, int n)
+char *_strncat(char *dest, char *src, int n)
 {
-strncat(dest, src, n);
+_strncat(dest, src, n);
 return (dest);
 }
