@@ -2,7 +2,7 @@
 #include <string.h>
 
 /**
-* -strncat - function to append some char
+* _strncat - function to append some char
 * @dest: first parameter1
 * @src: second  parameter2
 * @n: 3rd parameter3
