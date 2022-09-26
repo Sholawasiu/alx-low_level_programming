@@ -1,9 +1,8 @@
 #include "main.h"
 #include <string.h>
 
-
 /**
-* _memset -> this memory set function
+* _memset - this memory set function
 * @s: string
 * @b: a charcter
 * @n: an integer
