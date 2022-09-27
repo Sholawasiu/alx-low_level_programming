@@ -19,7 +19,7 @@ while (needle[b])
 if (haystack[a + b] != needle[b])
 {
 break;
-}	  
+}
 b++;
 }
 if (needle[b] == '\0')
