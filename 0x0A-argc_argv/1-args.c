@@ -6,7 +6,7 @@
 *Return: success
 */
 
-int main( int argc, char *argv[n])
+int main(int argc, char *argv[n])
 {
 printf("%d\n", argc[i]);
 }
