@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
-*main - A program that prints its name follow by a new line
-*@argv: variable1
-*@argc: variable2
+*main - write its name follow by a new line
+*@argv: arg count
+*@argc: array of pointers to CLI arg
 *Return: Always (0)
 */
 
