@@ -1,48 +1,34 @@
 #include <stdio.h>
-
 #include <stdlib.h>
-
-
-/**
-* isInteger - checks if s is an integer
-* @s: string to check
-* Return: 0 or 1
-*/
-
-
-int isInteger(const char *s)
-{
-int i = 0;
-while (s[i] != '\0')
-{
-if (s[i] < '0' || s[i] > '9')
-return (1);
-i++;
-}
-return (0);
-}
-
+#include <ctype.h>
+#include <string.h>
 
 /**
-* main - adds positive numbers
-* @argc: int
-* @argv: list
+* main - program that prints its name, followed by a new line
+* @argc: argument that counts argument input
+* @argv: argument that stores the strings in an array of char* (strings)
 * Return: 0
 */
 
-
-int main(int argc, char const *argv[])
+int main(int argc, char *argv[])
 {
-int sum = 0;
-while (--argc)
+int sum, val, i;
+sum = 0;
+if (argc < 1)
+printf("%d\n", 0);
+while (argc-- && argc > 0)
 {
-if (isInteger(argv[argc]
+for (i = 0; argv[argc][i] != '\0'; i++)
+{
+if (!(isdigit(argv[argc][i])))
 {
 printf("Error\n");
 return (1);
 }
-sum += atoi(argv[argc]);
 }
-printf("%i\n", sum);
+val = atoi(argv[argc]);
+sum += val;
+}
+printf("%d\n", sum);
 return (0);
 }
