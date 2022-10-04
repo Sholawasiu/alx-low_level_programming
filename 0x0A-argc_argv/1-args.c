@@ -1,17 +1,18 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 /**
-*main - prints the number of argument pass into it
-*@argc: arg count
-*@argv: array of pointer to CLI arg
-*Return: 0
+* main - program that prints its name, followed by a new line
+* @argc: argument that counts argument input
+* @argv: argument that stores the strings in an array of char* (strings)
+* Return: 0
 */
 
 int main(int argc, char *argv[])
 {
-*argv = *argv;  
-argc = argc;
+if (argc)
+{
 printf("%d\n", argc - 1);
+(void)argv;
+}
 return (0);
 }
