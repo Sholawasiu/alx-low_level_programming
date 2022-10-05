@@ -33,4 +33,3 @@ while (s2[i])
 str[j++] = s2[i++];
 return (str);
 }
-Footer
