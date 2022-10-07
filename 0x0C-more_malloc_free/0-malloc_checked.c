@@ -2,7 +2,8 @@
 #include <stdio.h>
 
 /**
-*main - allocate memory using malloc
+**malloc_checked - allocate memory using malloc
+*
 *@b: byte allocated
 *Return: pointer
 */
