@@ -3,7 +3,7 @@
 
 
 /**
-* main - check the code 
+* main - check the code
 * @argc: argument count
 * @argv: argument vector
 *
