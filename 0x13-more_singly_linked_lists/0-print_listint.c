@@ -8,16 +8,21 @@
 
 size_t print_listint(const listint_t *h)
 {
-size_t newnode;
-newnode = 0;
-while (h != NULL)
+listint_t *newnode, *temp;
+int count;
+if (h == 0)
 {
-if (h->str == NULL)
-printf("[%d] %s\n", 0, "(nil)");
-else
-printf("[%d] %s\n", h->len, h->str);
-h = h->next;
-newnode++;
+h = newnode;
 }
-return (newnode);
+else
+{
+h=temp=newnode;
+temp->next=newnode;
+}
+while (temp->next != 0)
+{ 
+printf("%d", listint_t->data);
+count++;
+}
+return (counts);
 }
