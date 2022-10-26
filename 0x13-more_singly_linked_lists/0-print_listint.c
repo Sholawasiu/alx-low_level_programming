@@ -16,13 +16,13 @@ h = newnode;
 }
 else
 {
-h=temp=newnode;
-temp->next=newnode;
+h = temp = newnode;
+temp->next = newnode;
 }
 while (temp->next != 0)
-{ 
+{
 printf("%d", listint_t->data);
 count++;
 }
-return (counts);
+return (count);
 }
