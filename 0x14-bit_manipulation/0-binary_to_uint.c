@@ -27,6 +27,6 @@ if (b[len] & 1)
 {
 ui += base_two;
 }
-}  
+}
 return (ui);
 }
