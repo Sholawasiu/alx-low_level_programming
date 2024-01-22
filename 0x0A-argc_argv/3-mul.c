@@ -21,4 +21,4 @@ mul = num_1 * num_2;
 printf("%d\n", mul);
 }
 return (0);
-}
+
