@@ -22,5 +22,5 @@ num_2 = atoi(argv[2]);
 mul = num_1 *num_2;
 printf("%d\n", mul);
 }
-return (1);
+return (0);
 }
