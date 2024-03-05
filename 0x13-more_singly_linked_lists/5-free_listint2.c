@@ -7,17 +7,19 @@
 * Return: no return.
 */
 
-
-void free_listint2(listint_t **head) 
-{  
-listint_t *temp;
-if (head == NULL)
-return;
-while (*head)
+void free_listint2(listint_t **head)
 {
-temp = (*head)->next;
-free(*head);
-*head = temp;
-}
-*head = NULL;
+	{
+	listint_t *tmp;
+
+	if (head == NULL)
+		return;
+
+	while (*head)
+	{
+		tmp = (*head)->next;
+		free(*head);
+		*head = tmp;
+	}
+	head = NULL;
 }
