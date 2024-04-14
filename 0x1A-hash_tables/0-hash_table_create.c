@@ -6,6 +6,7 @@
  *
  * Return: hash_table_t ht or NULL in case of failure
  */
+
 hash_table_t *hash_table_create(unsigned long int size)
 {
 	hash_table_t *ht;
